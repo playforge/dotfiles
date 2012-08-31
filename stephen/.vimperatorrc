@@ -1,1 +1,19 @@
-/Users/alts/.vimperatorrc
+" get rid of beep
+:set vb
+
+" get rid of flashing
+:hi Bell display:none; 
+
+" duckduckgo as primary search
+:set defsearch=duck
+
+" nicer hint styling
+:hi Hint font-size:8px; font-family:Verdana; color:#fff; background-color: #000; border-color: ButtonShadow; padding: 1px;line-height:1.3;
+
+" I accidentally hit D all the time. Let's kill it
+:map d <Nop>
+
+" Quick scroll
+:nmap J 5j
+:nmap K 5k
+
